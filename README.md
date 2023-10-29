@@ -1,8 +1,15 @@
-# Portfolio
+Portfolio Website
 
-![image](https://user-images.githubusercontent.com/50958126/154540849-df247591-9433-4d6b-a3ab-2a6b0c0d4c6a.png)
+Welcome to my portfolio website! This website serves as a showcase of my work, skills, and experiences in the field of web development and design.
 
-A personal introductory web page made with CSS animations, responsive design, HTML SEO, and modern UI/UX
+Table of Contents
 
-### Demo:
-https://liyannguyen.github.io/Portfolio/
+Introduction
+
+Profile
+
+Education
+
+Projects
+
+Contact
