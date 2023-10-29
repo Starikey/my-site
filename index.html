@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jyoti Singh</title>
+	<link rel="preload" href="images/face.png" as="image">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="tablet.css" media="screen and (max-width: 1024px)">
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 450px)">
+	<link rel="icon" href="images/icon.png">
+	<link href="./aos/aos.css" rel="stylesheet">
+	<script src="./aos/aos.js" defer></script>
+	<script src="index.js" defer></script>
+</head>
+<!-- data-aos="fade-up" data-aos-delay="300" -->
+<body style="display: hidden;">
+<!-- Sidebar -->
+<aside>
+	<figure class="user">
+		<img class="user-img" src="images/face.png" alt="">
+		<h3 class="user-name">Jyoti Singh</h3>
+		<figcaption class="user-position">Bengaluru,India</figcaption>
+	</figure>
+	<menu>
+		<li><a class="nav-link active" href="#intro" onclick="removeMobileViewMenu()">introduction</a></li>
+		<li><a class="nav-link" href="#profile" onclick="removeMobileViewMenu()">profile</a></li>
+		<li><a class="nav-link" href="#education" onclick="removeMobileViewMenu()">education</a></li>
+		<li><a class="nav-link" href="#project" onclick="removeMobileViewMenu()">projects</a></li>
+		<li><a class="nav-link" href="#contact" onclick="removeMobileViewMenu()">contact</a></li>
+	</menu>
+	<div class="flex-box">
+		<i class="slider-icon fas fa-sun"></i>
+		<label class="switch">
+			<input class="theme-toggle-checkbox" type="checkbox">
+			<span id="dark-theme-toggle" class="slider"></span>
+		</label>
+		<i class="slider-icon fas fa-moon"></i>
+	</div>
+</aside>
+<!-- Mobile View Menu -->
+<div id="mobile-menu" class="fas fa-bars" onclick="toggleMobileViewMenu()"></div>
+<!-- Intro Section -->
+<section class="intro" id="intro"><b>
+	<h3 class="intro-greet" data-aos="fade-up" data-aos-duration="1000">Hello !</h3>
+	<h1 class="intro-name" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">I'm <span class="emphasize-color">Jyoti Singh</span></h1>
+	<p class="intro-paragraph" data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000">"I graduated in 2023 with a degree in Computer Science Engineering from United College of Engineering and Research, Prayagraj, India." <br >Focusing on frontend web development using industry standards such as: <i>Responsive Design</i>, <i>Web Animations</i>, and other web development frameworks and libraries</p>
+	<p class="intro-paragraph" data-aos="fade-in" data-aos-delay="2000" data-aos-duration="1000">I am experienced with building Websites, SPAs and Webapps with modern UI/UX standards.</p>
+	<a class="intro-button" href="#profile" data-aos="fade-in" data-aos-delay="2500" data-aos-duration="1000"><button>my profile <i class="fas fa-user"></i></button> </a>
+</section></b>
+<!-- Profile Section -->
+<section id="profile">
+<h1 class="heading" data-aos="zoom-out">my <span class="emphasize-color">profile</span></h1>
+<div class="profile-flexbox">
+	<div class="profile-infobox"><b>
+
+		<h3 class="profile-info" data-aos="fade-right"> <span class="profile-infokey"><br >Hey again,I am 22 years old,I aspire to work as a Software Development Engineer, </span> possessing a strong foundation in <B>Core Java</B>, front-end development (HTML, CSS, JavaScript, React), and back-end development (Node.js, Express.js).   </h3>
+		<h3 class="profile-info" data-aos="fade-right"> <span class="profile-infokey"><br  >My experience includes database management using SQL (MySQL, MongoDB) and proficiency with development tools like Git, Visual Studio, and Android Studio.I have also worked with python,C,C++,in some projects.</span> <br >Beyond technical skills, I emphasize effective communication and am dedicated to continuously enhancing my problem-solving abilities to contribute effectively to software development projects. </h3>
+		
+		<h3 class="profile-info" data-aos="fade-right"> <span class="profile-infokey"> <br >languages : </span> english, hindi </h3>
+		<a class="downloadCV" href="https://resume.io/r/VtOuNunyE" download data-aos="fade-up"><button> Resume<i class="fas fa-download"></i> </button></a>
+	   </b></div>
+	<div class="technical-infobox" data-aos="zoom-out">
+		<div class="technical-skill">
+			<span class="technical-skillkey">HTML</span>
+
+		</div>
+		<div class="technical-skill">
+			<span class="technical-skillkey">CSS</span>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://www.javascript.com/" target="_blank">JavaScript</a>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://www.typescriptlang.org//" target="_blank">TypeScript</a>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://tailwindcss.com/" target="_blank">Reactjs</a>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://svelte.dev/" target="_blank">Nodejs</a>
+
+		</div>
+		<div class="technical-skill">
+			<a class="technical-skillkey" href="https://vuejs.org/" target="_blank">Core Java</a>
+
+		</div>
+		<a href="#education" class="showIn4K" data-aos="fade-up"><button>My Education <i class="fas fa-user-graduate"></i></button></a>
+	</div>
+</div>
+<!-- Education Section -->
+</section>
+<section class="education" id="education">
+<h1 class="heading" data-aos="zoom-out"> my <span class="emphasize-color">education</span> </h1>
+<div class="education-infobox">
+	<div class="education-info" data-aos="fade-up">
+		<i class="education-icon fas fa-graduation-cap"></i>
+		<span class="education-year">2019 - 2023</span>
+		<h3 class="education-school">United College Of Engineering And Research</h3>
+		<p class="education-detail">Bachelor's Degree in Computer Science Engineering</p>
+			<p class="education-detail">Scored 74%</p>
+			<p class="education-detail">I pursued a Bachelor's degree in Computer Science Engineering where I gained a strong foundation in computer science, also ,cultivated a passion for problem-solving and development.</p>
+	</div>
+	<div class="education-info" data-aos="fade-up">
+		<i class="education-icon fas fa-graduation-cap"></i>
+		<span class="education-year">2016 - 2018</span>
+		<h3 class="education-school">MPVM GANGA GURUKULAM</h3>
+		<p class="education-detail">INTERMEDIATE IN PCM(12TH IN CBSE)</p>
+			<p class="education-detail">Scored 86.4%</p>
+				<p class="education-detail">I completed my 12th-grade education with a focus on Physics, Chemistry, and Mathematics (PCM). This pivotal academic phase not only honed my logical and analytical thinking but also fostered a deep appreciation for the sciences and problem-solving. It laid the foundation for my journey into the world of technology and software development.</p>
+	</div>
+	<div class="education-info" data-aos="fade-up">
+		<i class="education-icon fas fa-graduation-cap"></i>
+		<span class="education-year">2014 - 2016</span>
+		<h3 class="education-school">MPVM GANGA GURUKULAM</h3>
+		<p class="education-detail">HIGH SCHOOL (10TH IN CBSE)</p>
+			<p class="education-detail">Scored 93.2%</p>
+	</div>
+	<a href="#project" class="showIn4K" data-aos="fade-up"><button>My Projects <i class="far fa-file-code"></i></button></a>
+</div>
+</section>
+<!-- Project Section -->
+<section id="project">
+    <h1 class="heading" data-aos="zoom-out"> Sample <span class="emphasize-color">projects</span> </h1>
+    <div class="project-infobox">
+        <div data-aos="fade-right">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/BinaryTreeVisualisation/" target="_blank"><img class="project-img"
+                        src="images/proj-1.jpeg" alt=""></a>
+                <figcaption class="project-caption">Binary Search Tree</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="150">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/N-Queens-Visualiser/" target="_blank"><img class="project-img"
+                        src="images/proj-2.jpeg" alt=""></a>
+                <figcaption class="project-caption">N-Queens Visualiser</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="300">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/CheckWeather/" target="_blank"><img class="project-img"
+                        src="images/proj-3.jpeg" alt=""></a>
+                <figcaption class="project-caption">Check Weather</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-right" data-aos-delay="450">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/Gallery/" target="_blank"><img class="project-img"
+                        src="images/proj-4.png" alt=""></a>
+                <figcaption class="project-caption">Image Gallery</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/Onscreen_Keyboard/" target="_blank"><img class="project-img"
+                        src="images/proj-5.jpeg" alt=""></a>
+                <figcaption class="project-caption">Virtual Keyboard</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="750">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/MusicOnline/" target="_blank"><img class="project-img"
+                        src="images/proj-6.jpeg" alt=""></a>
+                <figcaption class="project-caption">Music Online</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-right" data-aos-delay="900">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/Sudoku-Solver/" target="_blank"><img class="project-img"
+                        src="images/proj-7.jpeg" alt=""></a>
+                <figcaption class="project-caption">Sudoku Solver</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="1050">
+            <figure class="project-box">
+                <a href="https://starikey.github.io/Tindog/" target="_blank"><img class="project-img"
+                        src="images/proj-12.jpeg" alt=""></a>
+                <figcaption class="project-caption">Tindog</figcaption>
+            </figure>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="1200">
+            <figure class="project-box">
+                <a href="https://github.com/Starikey/Tic-Tac-Toe" target="_blank"><img class="project-img"
+                        src="images/proj-9.jpeg" alt=""></a>
+                <figcaption class="project-caption">Tic Tac Toe</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<a href="#contact" class="showIn4K" data-aos="fade-up"><button>My Contact Info <i class="far fa-envelope"></i></button></a>
+<!-- Contact Section -->
+</section>
+<section id="contact">
+<h1 class="heading" data-aos="zoom-out"><span class="emphasize-color">contact</span> me </h1>
+<div class="contact-infobox">
+	<div class="contact-box" data-aos="fade-up">
+		<div class="contact-me">
+			<h1>Get In Touch</h1>
+			<h2>If you like creative people.</h2>
+			<p class="contact-message"><b>Ping Me</b></p><br>
+			<br>
+			<a class="btn" href="mailto:jyotisi924@gmail.com">E-mail</a>
+			<a class="btn" href="https://resume.io/r/VtOuNunyE">Resume</a>
+
+			<a class="btn" href="whatsapp:contact=91-8957919618@s.whatsapp.com&message="I'd like to chat with you">Whatsapp</a>
+			<a class="btn" href="https://www.linkedin.com/in/jyoti-singh-670123214/">LinkedIn</a>
+			<a class="btn" href="https://github.com/Starikey">Github</a>
+			</div>
+		</div>
+
+
+
+	</div>
+
+</div>
+</section>
+<!-- Scroll Up Button  -->
+<a href="#intro" class="to-top">
+	<i class="fas fa-arrow-circle-up"></i>
+</a>
+</body>
+</html>
